@@ -3,8 +3,9 @@ channels:
 dependencies:
   - appmode
   - beautifulsoup4
-  - google-cloud-translate
-  - tika
-  - Whoosh
-  - ortools
+  - whoosh
   - ipywidgets
+  - pip:
+    - tika
+    - google-cloud-translate
+    - ortools
